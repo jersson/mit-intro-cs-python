@@ -44,3 +44,5 @@ try:
     print(('x[0] = 8: {0} value: {1}').format(str(type(eval)), str(eval)))
 except:
     print('x[0] = 8: <nonetype> value: error')
+ 
+ # a new comment
