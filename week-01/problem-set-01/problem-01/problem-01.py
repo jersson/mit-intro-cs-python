@@ -5,5 +5,4 @@ for letter in s:
     if letter in 'aeiou':
         result += 1
 
-message_result = message_base + ' ' + str(result) 
-print(message_result)
+print('Number of vowels: {}'.format(result))
