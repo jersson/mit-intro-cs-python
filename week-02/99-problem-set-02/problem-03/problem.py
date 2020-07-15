@@ -28,5 +28,4 @@ while remainingBalance != 0:
 
     monthlyPaymentRate = (minimumPayment + maximumPayment) / 2
     remainingBalance = getRemainingBalance(balance, annualInterestRate, monthlyPaymentRate) 
-print("Lowest Payment: " + str(round(monthlyPaymentRate,2)))
-    
+print("Lowest Payment: {}".format(round(monthlyPaymentRate,2)))

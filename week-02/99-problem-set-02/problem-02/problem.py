@@ -13,4 +13,4 @@ while remainingBalance >= 0:
         interest = annualInterestRate * unpaidBalance / 12.0
         remainingBalance = unpaidBalance + interest
         month += 1
-print("Lowest payment: " +  str(lowestPayment))
+print("Lowest payment: {}".format(lowestPayment))

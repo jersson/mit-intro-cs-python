@@ -12,4 +12,4 @@ while month <= 12:
     remainingBalance = unpaidBalance + interest
     month += 1
 remainingBalance = round(remainingBalance, 2)
-print("Remaining balance: " +  str(remainingBalance))
+print("Remaining balance: {}".format(remainingBalance))
